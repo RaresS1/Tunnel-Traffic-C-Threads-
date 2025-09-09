@@ -60,6 +60,12 @@
                -- Simulates external authorities (police/fire dept.) blocking access.
 
                -- Tunnel is locked for ~5 seconds.
+
+Lines 200-222 (Main function):
+
+               -- Creates 6 threads for parallel monitoring (cars, gas, smoke, panic, external).
+
+               -- Uses pthread_join to keep the program alive indefinitely.
     
 
                 
